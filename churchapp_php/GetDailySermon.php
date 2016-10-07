@@ -5,9 +5,9 @@
 	//Get the POST variables
 	
 $servername = "localhost";
-$username = "cotykova_COTY";
-$password = "Scrapmonkey722!";
-$dbname = "cotykova_church_test";
+$username = "";
+$password = "";
+$dbname = "";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);
