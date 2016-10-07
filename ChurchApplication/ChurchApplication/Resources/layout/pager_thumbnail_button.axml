@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="120dp"
+    android:weightSum="100"
+    android:background="#F1F1F1"
+    android:clickable="true"
+    android:id="@+id/thumbnailButton">
+    <ImageView
+        android:id="@+id/mainThumbail"
+        android:src="@drawable/defaultvideo"
+        android:layout_width="42.0dp"
+        android:layout_weight="25"
+        android:layout_height="84.0dp"
+        android:background="#3B5998"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="10dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="65">
+        <TextView
+            android:id="@+id/thumbnailTitle"
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="35"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="#000" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imgPic"
+        android:src="@drawable/rightArrow"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="0.0dp" />
+</LinearLayout>

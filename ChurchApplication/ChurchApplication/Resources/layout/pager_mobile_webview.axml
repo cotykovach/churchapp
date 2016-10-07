@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="50px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:id="@+id/scrollViewText">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <TextView
+            android:text=""
+            android:textSize="64px"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:gravity="bottom|left"
+            android:layout_width="match_parent"
+            android:layout_height="550px"
+            android:id="@+id/sermonTitle"
+            android:background="@drawable/defaultbutton_churchTheme" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/back">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/back"
+                android:weightSum="100">
+                <WebView
+                    android:id="@+id/mobileWebView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:isScrollContainer="false" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

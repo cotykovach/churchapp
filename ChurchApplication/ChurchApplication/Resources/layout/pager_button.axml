@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="180dp"
+    android:weightSum="100"
+    android:background="#000000">
+    <ImageButton
+        android:text="Button"
+        android:src="@drawable/defaultbutton_churchTheme"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:padding="0.0dp"
+        android:background="@drawable/defaultbutton_churchTheme"
+        android:id="@+id/seriesButton" />
+    <TextView
+        android:id="@+id/myImageViewText"
+        android:textStyle="bold"
+        android:textSize="64px"
+        android:textColor="@color/splash_background"
+        android:typeface="sans"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignLeft="@+id/seriesButton"
+        android:layout_alignTop="@+id/seriesButton"
+        android:layout_alignRight="@+id/seriesButton"
+        android:layout_alignBottom="@+id/seriesButton"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:text="" />
+</RelativeLayout>

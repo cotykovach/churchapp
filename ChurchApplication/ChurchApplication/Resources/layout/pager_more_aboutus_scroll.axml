@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/back">
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+        <ImageView
+            android:src="@drawable/defaultaboutus_image"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:weightSum="100"
+        android:clickable="true"
+        android:onClick="button_OurChurch"
+        android:background="@drawable/back"
+        android:id="@+id/churchButton">
+        <TextView
+            android:id="@+id/ourChurchTitle"
+            android:text="Our Church"
+            android:layout_width="268.5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="90"
+            android:gravity="left|center"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_marginRight="0.0dp"
+            android:layout_marginLeft="12dp" />
+        <ImageView
+            android:src="@drawable/rightArrow"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:layout_marginRight="10dp"
+            android:id="@+id/imageView3" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="-1dp"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:weightSum="100"
+        android:background="@drawable/back"
+        android:clickable="true"
+        android:onClick="button_OurMission"
+        android:id="@+id/missionButton">
+        <TextView
+            android:text="Mission &amp; Focus Area"
+            android:layout_width="268.5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="90"
+            android:gravity="left|center"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_marginRight="0.0dp"
+            android:layout_marginLeft="12dp" />
+        <ImageView
+            android:src="@drawable/rightArrow"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:layout_marginRight="10dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="-1dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:weightSum="100"
+        android:background="@drawable/back"
+        android:clickable="true"
+        android:onClick="button_OurHistory"
+        android:id="@+id/historyButton">
+        <TextView
+            android:text="Church History"
+            android:layout_width="268.5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="90"
+            android:gravity="left|center"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:layout_marginRight="0.0dp"
+            android:layout_marginLeft="12dp" />
+        <ImageView
+            android:src="@drawable/rightArrow"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:layout_marginRight="10dp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="75sp" />
+</LinearLayout>

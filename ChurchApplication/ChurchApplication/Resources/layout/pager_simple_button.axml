@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:weightSum="100"
+    android:background="#F1F1F1"
+    android:clickable="true"
+    android:id="@+id/simpleButton">
+    <TextView
+        android:id="@+id/simpleTitle"
+        android:text="Video Title Example Video Title Example"
+        android:layout_width="268.5dp"
+        android:layout_height="match_parent"
+        android:layout_weight="90"
+        android:gravity="left|center"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:layout_marginRight="0.0dp"
+        android:layout_marginLeft="12dp" />
+    <ImageView
+        android:id="@+id/imgPic"
+        android:src="@drawable/rightArrow"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="0.0dp" />
+</LinearLayout>

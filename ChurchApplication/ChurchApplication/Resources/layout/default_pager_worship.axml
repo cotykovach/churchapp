@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/linearLayout1">
+    <TextView
+        android:id="@+id/item_subtitle4"
+        android:layout_width="match_parent"
+        android:layout_height="0.0dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:layout_marginBottom="0.0dp" />
+    <Button
+        android:text=""
+        android:textStyle="bold"
+        android:background="@drawable/defaultsermon"
+        android:onClick="button_Sermon"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/sermon" />
+    <Button
+        android:text=""
+        android:textStyle="bold"
+        android:background="@drawable/defaultmobilebible"
+        android:layout_width="match_parent"
+        android:onClick="button_MobileBible"
+        android:layout_height="150dp"
+        android:id="@+id/bible" />
+    <Button
+        android:text=""
+        android:textStyle="bold"
+        android:background="@drawable/defaultsermonarchive"
+        android:onClick="button_SermonArchive"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/archive" />
+</LinearLayout>

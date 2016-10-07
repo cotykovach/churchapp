@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/linearLayout4">
+    <TextView
+        android:id="@+id/item_subtitle4"
+        android:layout_width="match_parent"
+        android:layout_height="0.0dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:layout_marginBottom="0.0dp" />
+    <Button
+        android:text=""
+        android:textStyle="bold"
+        android:background="@drawable/defaultaboutus"
+        android:onClick="button_AboutUs"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/aboutUs"
+        android:textSize="64px"
+        android:textColor="@android:color/holo_orange_dark"
+        android:typeface="sans" />
+    <Button
+        android:text=""
+        android:textStyle="bold"
+        android:background="@drawable/defaultcontact"
+        android:onClick="button_Contacts"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/contacts"
+        android:typeface="sans"
+        android:textSize="64px"
+        android:textColor="@android:color/holo_orange_dark" />
+    <Button
+        android:text=""
+        android:textStyle="bold"
+        android:background="@drawable/defaultlinks"
+        android:onClick="button_Links"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/links"
+        android:textSize="64px"
+        android:typeface="sans"
+        android:textColor="@android:color/holo_orange_dark" />
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="80sp" />
+</LinearLayout>
